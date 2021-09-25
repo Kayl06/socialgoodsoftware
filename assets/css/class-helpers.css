@@ -197,6 +197,10 @@
   padding-right: 0 !important;
 }
 
+.pe-1 {
+  padding-right: 1em !important;
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
