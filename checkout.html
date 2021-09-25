@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Good Software - Checkout</title>
+
+    <link rel="shortcut icon" href="assets/imgs/logo/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/class-helpers.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+
+<body class="bg-light">
+    <!-- Start Nav -->
+    <nav class="navbar navbar-default bg-white">
+        <div class="container-fluid d-flex flex-center">
+            <div class="container">
+                <div class="d-flex flex-center">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="javascript:void(0)">
+                            <img alt="Brand" src="assets/imgs/logo/logo.png">
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="">
+                        <div class="d-flex right-content">
+                            <div class="select-lang me-1">
+                                <select class="">
+                                    <option value="eng">English</option>
+                                    <option value="eng-uk">English UK</option>
+                                </select>
+                            </div>
+
+                            <button type="button" class="btn btn-primary btn-sm me-1 create-account-btn">Create
+                                Account</button>
+
+                            <button type="button" class="btn btn-primary btn-sm sign-in-btn">Sign In</button>
+                        </div>
+                    </div>
+
+                    <div class="cart-section d-flex">
+                        <span class="glyphicon glyphicon-shopping-cart cart-icon me-0"></span> &nbsp; 0 Items
+                        <span class="border"></span>
+
+                        <span class="total-price">
+                            $0.00
+                        </span>
+
+                        <button type="button" class="navbar-toggle collapsed ms-1 border-0" data-toggle="collapse"
+                            data-target="#right-btns-section" aria-expanded="false">
+                            <span class="icon-bar bg-primary"></span>
+                            <span class="icon-bar bg-primary"></span>
+                            <span class="icon-bar bg-primary"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="right-btns-section">
+                    <div class="d-flex navbar-list-container">
+                        <ul class="navbar-list">
+                            <li>
+                                <div class="select-lang me-1">
+                                    <select class="">
+                                        <option value="eng">English</option>
+                                        <option value="eng-uk">English UK</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary btn-sm me-1 create-account-btn">Create
+                                    Account</button>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary btn-sm sign-in-btn">Sign In</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+
+    <div class="container-fluid bg-light content">
+        <div class="container content-body">
+            <div class="row">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <!-- Ticket Panel -->
+                        <div class="row">
+                            <div class="header d-flex flex-center mb-1">
+                                <div class="header-title">
+                                    <h3>Tickets</h3>
+                                </div>
+
+                                <button class="btn btn-primary btn-default empty-cart-btn">Empty Cart</button>
+                            </div>
+
+                            <div class="ticket-box bg-light border-1 row">
+                                <div class="d-flex mb-1">
+                                    <span class="fw-normal fs-2">Ticket Name and Info</span>
+                                </div>
+
+                                <div class="d-flex mb-1">
+                                    <a href="javascript:void(0)" class="link-action text-primary fs-1">Review</a>
+
+                                    <span class="mx-4px fs-1 text-primary fw-bold">or</span>
+
+                                    <a href="javascript:void(0)" class="link-action text-primary fs-1">Edit</a>
+                                </div>
+
+                                <div class="d-flex mb-1">
+                                    <span class="ticket-date fw-normal fs-2">
+                                        Friday, November 19, 2021 5:30 PM
+                                    </span>
+                                </div>
+
+                                <div class="d-flex flex-center flex-wrap">
+                                    <span class="ticket-cost fw-normal fs-2">
+                                        1 at $25.00
+                                    </span>
+
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)" class="fw-bolder text-dark me-2">
+                                            <i class="fa fa-trash text-danger"></i>
+                                            Remove
+                                        </a>
+
+                                        <span class="ticket-subtotal-const fw-normal fs-2">
+                                            $27.00
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Ticket Panel -->
+
+                        <!-- Parking Panel -->
+                        <div class="row">
+                            <div class="header d-flex flex-center mb-1">
+                                <div class="header-title">
+                                    <h3>Parking</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="parking-box bg-light border-1 row">
+                                <div class="d-flex mb-1">
+                                    <span class="fw-normal fs-2">Name of Parking</span>
+                                </div>
+
+                                <div class="d-flex mb-1">
+                                    <a href="javascript:void(0)" class="link-action text-primary fs-1">Review</a>
+
+                                    <span class="mx-4px fs-1 text-primary fw-bold">or</span>
+
+                                    <a href="javascript:void(0)" class="link-action text-primary fs-1">Edit</a>
+                                </div>
+
+                                <div class="d-flex mb-1">
+                                    <span class="parking-expiration-date fw-normal fs-2">
+                                        Expires Friday, November 19, 2021
+                                    </span>
+                                </div>
+
+                                <div class="d-flex flex-center flex-wrap">
+                                    <span class="ticket-cost fw-normal fs-2">
+                                        1 at $15.00
+                                    </span>
+
+                                    <div class="d-flex">
+                                        <a href="javascript:void(0)" class="fw-bolder text-dark me-2">
+                                            <i class="fa fa-trash text-danger"></i>
+                                            Remove
+                                        </a>
+
+                                        <span class="ticket-subtotal-const fw-normal fs-2">
+                                            $15.00
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Parkin Panel -->
+
+                        <div class="mb-1"></div>
+
+                        <!-- Discount Panel -->
+                        <div class="row">
+                            <div class="discount-box">
+                                <div class="d-flex flex-end justify-content-between">
+                                    <div class="col-sm-8 col-md-7 col-lg-6 ps-0">
+                                        <div class="d-flex">
+                                            <label for="#" class="fw-normal">Discount Code</label>
+                                        </div>
+                                        <input type="text" name=""
+                                            class="form-control discount-input-field w-100 border-1">
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <button class="btn btn-primary apply-disc-btn">
+                                            Apply
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Discount Panel -->
+
+                        <div class="mb-1"></div>
+
+                        <!-- Donation Panel -->
+                        <div class="row">
+                            <div class="donation-box">
+                                <div class="d-flex flex-end justify-content-between">
+                                    <div class="col-sm-8 col-md-7 col-lg-6 ps-0">
+                                        <div class="d-flex">
+                                            <label for="#" class="fw-normal">Please add a donation to my ticket
+                                                purchase</label>
+                                        </div>
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="basic-addon1">$</span>
+                                            <input type="text" name="" class="form-control w-100 border-1">
+                                        </div>
+
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <button class="btn btn-primary add-to-cart-btn">
+                                            Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Donation Panel -->
+
+                        <div class="mb-1"></div>
+
+                        <!-- Start Additional Donation Panel -->
+                        <div class="row">
+                            <div class="additional-donation-div d-flex">
+                                <input type="checkbox" aria-label="">
+                                <span class="">Help cover 3% credit card processing fees with an additional
+                                    donation</span>
+                            </div>
+                        </div>
+                        <!-- End Additional Donation Panel -->
+
+                        <div class="mb-1"></div>
+
+                        <!-- Personal Information -->
+                        <div class="row personal-info">
+                            <div class="header d-flex flex-center mb-1">
+                                <div class="header-title">
+                                    <h3>Personal Information</h3>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <label for="#" class="fw-bold fs-1">
+                                            Title
+                                        </label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            Country</label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+                            </div>
+
+                            <div class="mb-1"></div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            Firstname
+                                        </label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            Address</label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+                            </div>
+
+                            <div class="mb-1"></div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            Lastname
+                                        </label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            City</label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+                            </div>
+
+                            <div class="mb-1"></div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            Email
+                                        </label>
+                                    </div>
+                                    <input type="email" name="" value="kim@socialgoodsoftware.com"
+                                        class="form-control discount-input-field w-100 is-valid text-dark">
+                                    <div class="is-valid"></div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            State</label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+                            </div>
+
+                            <div class="mb-1"></div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            Phone
+                                        </label>
+                                    </div>
+                                    <input type="tel" name="" value=""
+                                        class="form-control discount-input-field w-100 border-1">
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-12 ps-0">
+                                    <div class="d-flex">
+                                        <span class="required"></span>
+                                        <label for="#" class="fw-bold fs-1">
+                                            ZIP</label>
+                                    </div>
+                                    <input type="text" name=""
+                                        class="form-control discount-input-field  w-100 border-1">
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- End Personal Information -->
+
+                        <div class="mb-1"></div>
+
+                        <!-- Total -->
+                        <div class="row">
+                            <div class="total-div d-flex justify-content-end">
+                                <span class="fw-bolder">
+                                    Total: $56.00
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Total -->
+
+                        <div class="mb-1"></div>
+
+                        <div class="row">
+                            <div class="checkout-div d-flex flex-center">
+                                <div class="left-checkboxes">
+                                    <input type="checkbox" aria-label="">
+                                    <span>Register for the site</span>
+                                    <br>
+                                    <input type="checkbox" aria-label="">
+                                    <span>Use this as my billing address</span>
+                                </div>
+
+                                <button class="btn btn-primary checkout-btn" id="checkOutBtn">
+                                    Checkout
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Footer -->
+    <footer class="footer bg-white">
+        <div class="container">
+            <div class="row footer-content">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-1">
+                    <div class="company-logo mb-1">
+                        <img src="assets/imgs/logo/logo.png" alt="">
+                    </div>
+
+                    <div class="mb-1">
+                        <span class="description">
+                            The most complete integration solution for Altru. Unlock Altru to its full potential and
+                            book
+                            your demo today.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-md-offset-3 mb-1">
+                    <div class="mb-1">
+                        <span class="contact-us-label"> Contact Us: </span>
+                    </div>
+
+                    <div>
+                        <span class="address">
+                            9890 South 300 West <br>
+                            #303
+                        </span>
+                        <br>
+                        <span class="phone">801-738-9051</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div>
+                        <span class="credit">
+                            © 2021 Social Good Software
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+
+    <!-- End Scripts -->
+
+</body>
+
+</html>

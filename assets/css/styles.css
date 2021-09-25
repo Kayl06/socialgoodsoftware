@@ -1,0 +1,280 @@
+* {
+  font-family: "Montserrat";
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.navbar {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  min-height: auto !important;
+}
+
+.navbar-default .navbar-collapse {
+  padding: 0 !important;
+}
+
+.navbar .container .row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .select-lang select {
+  border: none !important;
+  font-size: 12px;
+  width: auto;
+  padding: 6px 12px;
+  background: none;
+}
+
+.navbar .select-lang select:focus {
+  border: 0;
+}
+
+.navbar .navbar-header {
+  margin-left: 1.2em;
+}
+
+.navbar .create-account-btn,
+.navbar .sign-in-btn,
+.add-to-cart-btn {
+  border-radius: 3px !important;
+}
+
+.navbar .cart-section {
+  position: absolute;
+  right: 0;
+  margin-right: 1.7%;
+  align-items: center;
+}
+
+.navbar .cart-section > .cart-icon {
+  font-size: 18px;
+  color: gray;
+}
+
+.navbar .cart-section .border {
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 1px solid rgb(201 198 198);
+  height: 40px;
+}
+
+.navbar .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar .navbar-brand {
+  height: auto !important;
+  padding: 0;
+}
+
+.navbar .navbar-brand > img,
+.footer .company-logo > img {
+  height: 40px;
+}
+
+.navbar-list {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  background: #fff;
+}
+
+.navbar-list > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-list > li > button,
+.navbar-list > li > select {
+  width: 100%;
+}
+
+.content {
+  flex: 1 0;
+}
+
+.content-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.content-body .panel {
+  border: 0;
+  border-radius: 0;
+}
+
+.panel .header-title > h3 {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 22px !important;
+}
+
+.panel-body {
+  padding: 25px 25px !important;
+}
+
+.panel .box {
+  border: 2px solid rgb(228, 221, 221);
+  border-radius: 1px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel .ticket-box,
+.panel .parking-box {
+  border: 2px solid rgb(228, 221, 221);
+  border-radius: 1px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel .discount-box,
+.panel .donation-box {
+  border: 1px solid rgb(228, 221, 221);
+  border-radius: 1px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel .box .selected-date-section,
+.panel .box .selected-time-section {
+  /* width: 50%; */
+  text-align: center;
+  float: left !important;
+}
+
+.panel .box .selected-date-section > .date,
+.panel .box .selected-time-section > .time {
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+
+.panel .box .selected-date-section > a,
+.panel .box .selected-time-section > a {
+  font-size: 12px;
+}
+
+.panel .box .selected-time-section {
+  float: right !important;
+}
+
+.table-cart .table {
+  border: 1px solid #d7d7d7 !important;
+}
+
+.add-to-cart-btn {
+  float: right;
+  font-weight: bolder !important;
+  padding: 8px !important;
+  width: 125px !important;
+  font-size: 13px ​ !important;
+}
+
+.empty-cart-btn,
+.apply-disc-btn,
+.checkout-btn {
+  font-weight: bolder !important;
+  padding: 8px !important;
+  width: 125px !important;
+  font-size: 13px ​ !important;
+}
+
+.add-to-cart-btn:focus {
+  border-color: transparent !important;
+}
+
+.link-action {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.discount-input-field,
+.donation-input-field {
+  height: 35px !important;
+  border-radius: 1px !important;
+}
+
+.discount-input-field:focus {
+  border: #9d9d9d !important;
+}
+
+.additional-donation-div {
+  padding: 5px 10px;
+  border: 2px dashed #a6a6a6;
+}
+
+input[type="checkbox"] {
+  border-radius: 0px !important;
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.row {
+  margin: 0 !important;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* width: 100%; */
+}
+
+.footer {
+  /* position: absolute; */
+  /* bottom: 0; */
+  flex-shrink: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer .description {
+  font-size: 15px;
+}
+
+.footer .credit {
+  font-size: 11.5px;
+}
+
+.footer .contact-us-label {
+  font-weight: bolder;
+}
