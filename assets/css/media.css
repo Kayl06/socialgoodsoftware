@@ -23,6 +23,14 @@
   .navbar .navbar-brand > img {
     height: 25px;
   }
+
+  .justify-content-center-sm {
+    justify-content: center !important;
+  }
+
+  .mb-sm-1 {
+    margin-bottom: 1em;
+  }
 }
 
 @media (min-width: 768px) {

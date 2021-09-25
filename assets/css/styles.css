@@ -135,7 +135,6 @@ body {
   border-radius: 1px;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
 }
 
 .panel .ticket-box,
@@ -160,7 +159,7 @@ body {
 .panel .box .selected-time-section {
   /* width: 50%; */
   text-align: center;
-  float: left !important;
+  /* float: left !important; */
 }
 
 .panel .box .selected-date-section > .date,
@@ -175,11 +174,21 @@ body {
 }
 
 .panel .box .selected-time-section {
-  float: right !important;
+  /* float: right !important; */
 }
 
 .table-cart .table {
   border: 1px solid #d7d7d7 !important;
+}
+
+.table-cart .table tbody > tr > td:first {
+  width: 500px;
+}
+
+.table-cart .table tbody > tr > td:last-child {
+  font-weight: bolder;
+  text-align: end;
+  width: 80px;
 }
 
 .add-to-cart-btn {
