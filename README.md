@@ -2,7 +2,7 @@
 Social Good Software Trial Project
 
 
-If there's a problem please do drop a email to me - frabanzoo@gmail.com
+If there's any problem please contact me.
 
 Thank you! 
 ©Kayl M. Rabanzo
