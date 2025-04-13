@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Slick Carousel Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f4f4f4;
+            padding: 40px;
+        }
+
+        .slider {
+            width: 90%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .slider div {
+            background: #3498db;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            font-size: 1.5rem;
+            border-radius: 10px;
+        }
+
+        .slick-dots li button:before {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div style="padding: 50px; background-color: white;">
+
+    </div>
+    <div style="padding: 50px; background-color: white;">
+
+    </div>
+    <div style="padding: 50px; background-color: white;">
+
+    </div>
+    <div style="padding: 50px; background-color: white;">
+
+    </div>
+
+    <div class="slider" data-slick='{
+    "dots": true,
+    "infinite": true,
+    "speed": 300,
+    "slidesToShow": 1,
+    "swipeToSlide": true,
+    "touchThreshold": 100,
+    "edgeFriction": 0.35
+  }'>
+        <div>Slide 1</div>
+        <div>Slide 2</div>
+        <div>Slide 3</div>
+        <div>Slide 4</div>
+    </div>
+
+    <!-- Slick JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick();
+        });
+    </script>
+
+</body>
+
+</html>
